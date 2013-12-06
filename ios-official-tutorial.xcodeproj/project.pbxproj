@@ -19,6 +19,7 @@
 		E3454E6618522DD500BBE6E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3454E4E18522DD500BBE6E8 /* UIKit.framework */; };
 		E3454E6E18522DD500BBE6E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3454E6C18522DD500BBE6E8 /* InfoPlist.strings */; };
 		E3454E7018522DD500BBE6E8 /* ios_official_tutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3454E6F18522DD500BBE6E8 /* ios_official_tutorialTests.m */; };
+		E3454E7A185232F300BBE6E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3454E79185232F300BBE6E8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E3454E6B18522DD500BBE6E8 /* ios-official-tutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-official-tutorialTests-Info.plist"; sourceTree = "<group>"; };
 		E3454E6D18522DD500BBE6E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3454E6F18522DD500BBE6E8 /* ios_official_tutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_official_tutorialTests.m; sourceTree = "<group>"; };
+		E3454E79185232F300BBE6E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				E3454E5918522DD500BBE6E8 /* BSLAppDelegate.h */,
 				E3454E5A18522DD500BBE6E8 /* BSLAppDelegate.m */,
+				E3454E79185232F300BBE6E8 /* Main.storyboard */,
 				E3454E5C18522DD500BBE6E8 /* Images.xcassets */,
 				E3454E5118522DD500BBE6E8 /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3454E7A185232F300BBE6E8 /* Main.storyboard in Resources */,
 				E3454E5518522DD500BBE6E8 /* InfoPlist.strings in Resources */,
 				E3454E5D18522DD500BBE6E8 /* Images.xcassets in Resources */,
 			);
