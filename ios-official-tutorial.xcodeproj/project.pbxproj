@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3995FAA51853774A00EB47A2 /* BSLAddToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3995FAA41853774A00EB47A2 /* BSLAddToDoItem.m */; };
+		3995FAA81853781700EB47A2 /* BSLToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3995FAA71853781700EB47A2 /* BSLToDoList.m */; };
 		E3454E4B18522DD500BBE6E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3454E4A18522DD500BBE6E8 /* Foundation.framework */; };
 		E3454E4D18522DD500BBE6E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3454E4C18522DD500BBE6E8 /* CoreGraphics.framework */; };
 		E3454E4F18522DD500BBE6E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3454E4E18522DD500BBE6E8 /* UIKit.framework */; };
@@ -33,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3995FAA31853774A00EB47A2 /* BSLAddToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLAddToDoItem.h; sourceTree = "<group>"; };
+		3995FAA41853774A00EB47A2 /* BSLAddToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLAddToDoItem.m; sourceTree = "<group>"; };
+		3995FAA61853781700EB47A2 /* BSLToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLToDoList.h; sourceTree = "<group>"; };
+		3995FAA71853781700EB47A2 /* BSLToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLToDoList.m; sourceTree = "<group>"; };
 		E3454E4718522DD500BBE6E8 /* ios-official-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-official-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3454E4A18522DD500BBE6E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3454E4C18522DD500BBE6E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +118,10 @@
 				E3454E5918522DD500BBE6E8 /* BSLAppDelegate.h */,
 				E3454E5A18522DD500BBE6E8 /* BSLAppDelegate.m */,
 				E3454E79185232F300BBE6E8 /* Main.storyboard */,
+				3995FAA61853781700EB47A2 /* BSLToDoList.h */,
+				3995FAA71853781700EB47A2 /* BSLToDoList.m */,
+				3995FAA31853774A00EB47A2 /* BSLAddToDoItem.h */,
+				3995FAA41853774A00EB47A2 /* BSLAddToDoItem.m */,
 				E3454E5C18522DD500BBE6E8 /* Images.xcassets */,
 				E3454E5118522DD500BBE6E8 /* Supporting Files */,
 			);
@@ -246,6 +256,8 @@
 			files = (
 				E3454E5B18522DD500BBE6E8 /* BSLAppDelegate.m in Sources */,
 				E3454E5718522DD500BBE6E8 /* main.m in Sources */,
+				3995FAA51853774A00EB47A2 /* BSLAddToDoItem.m in Sources */,
+				3995FAA81853781700EB47A2 /* BSLToDoList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +458,7 @@
 				E3454E7518522DD500BBE6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3454E7618522DD500BBE6E8 /* Build configuration list for PBXNativeTarget "ios-official-tutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +467,7 @@
 				E3454E7818522DD500BBE6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
